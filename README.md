@@ -13,4 +13,4 @@ Faris Rayhan <frayhan94@gmail.com>
 
 Link tested
 
-https://pokedextiket.herokuapp.com/
+https://e-commerce-sehatq.herokuapp.com
