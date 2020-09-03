@@ -1,0 +1,7 @@
+{
+  "name": "e-commerce-sehatq",
+  "script": "server.js",
+  "instances": "max",
+  "watch": "../",
+  "exec_mode": "cluster"
+}

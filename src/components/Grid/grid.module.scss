@@ -1,0 +1,23 @@
+.Grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+
+
+@for $i from 1 through 12 {
+  .split--#{$i} {
+    > div,a{
+      display: block;
+      width: 100% / $i;
+      @media (max-width: 480px) {
+        width: 100%;
+      }
+    }
+  }
+}
